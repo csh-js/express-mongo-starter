@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  js-passport:
+    build: .
+    
+    ports:
+      - "5000:5000"
+    
+    volumes:
+        - /home/node/app/node_modules
+        - .:/home/node/app
+
+    
