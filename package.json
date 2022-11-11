@@ -4,8 +4,9 @@
     "dev": "nodemon --watch src/app.js"
   },
   "dependencies": {
-    "express": "*",
-    "nodemon": "*"
+    "express": "^4.18",
+    "nodemon": "^2.*",
+    "mongoose": "^6.7"
   }
   
 }
